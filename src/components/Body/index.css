@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container {
+  background-color: #e2e8f0;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.left-navbar-row-styling {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  width: 30%;
+}
+.left-nav-head {
+  font-size: 24px;
+  font-weight: 700;
+}
+.left-nav-para {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.content-navbar-container {
+  background-color: #f1f5f9;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.content-nav-para {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+  text-align: center;
+  margin-top: 0px;
+}
+.right-nav-para {
+  border-radius: 6px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: #64748b 2px solid;
+  align-self: center;
+}
+.right-navbar-row-styling {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  width: 50%;
+}
+.ul-container {
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+  }
+  .navbar-container {
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .left-navbar-row-styling {
+    flex-direction: column;
+    width: 100%;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .content-navbar-container {
+    width: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .content-nav-para {
+    margin: 0px;
+    text-align: left;
+  }
+  .right-navbar-row-styling {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+}

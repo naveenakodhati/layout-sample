@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #cbd5e1;
+  margin-bottom: 13px;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #475569;
+}

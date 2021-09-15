@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-navbar-container {
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+  width: 100%;
+}
+.navbar-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 3px;
+}
+.navbar-heading {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.input-checkbox {
+  height: 14px;
+  width: 14px;
+  margin-right: 6px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-self: center;
+}
+.label-text {
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 15px;
+  margin-top: 6px;
+}
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    width: 100%;
+  }
+  .navbar-title {
+    padding-left: 60px;
+  }
+  .navbar-heading {
+    padding-left: 60px;
+  }
+}
